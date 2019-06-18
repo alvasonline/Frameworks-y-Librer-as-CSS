@@ -1,0 +1,105 @@
+body{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+.contenido{
+	background-color: rgba(0,0,0,0.7);
+}
+
+header{
+	border-bottom: 1px dashed white;
+	margin: 10px 0 35px 0;
+	color: white;
+}
+
+.cabeza{
+		padding: 10px;
+}
+
+.nombre{
+	border-right: 1px dashed white;
+	text-align: left;
+}
+
+.slogan{
+	font-size: 18px;
+}
+
+.sub{
+		color: orange ;
+}
+
+.izq{
+	background: orange;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.der{
+	background: white;
+	border-radius: 5px;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.input-group-label{
+	background-color: white;
+	color: orange;
+}
+
+.listas> li{
+	height: 25px; margin: 10px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.listas> li a{
+	color: white;
+}
+
+.listas> li a:hover{
+	color: black;
+}
+
+.hist> li a{
+	color: white
+}
+
+article{
+	border-bottom: 1px dashed gray;
+	margin: 10px 0 10px 0; 
+	padding: 5px;
+}
+
+.fecha{
+	color: orange;
+	font-size: 11px;
+}
+
+.user{
+	width: 50px;
+}
+
+.comentado{
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 640px) {
+	header{display: none;}
+	.izq {display: none;}
+}
+
+@media (max-width: 940px) {
+	.buscar, .redes{display: none;}
+	
+}

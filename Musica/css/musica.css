@@ -1,0 +1,63 @@
+body{
+	background: #d8dce3;
+}
+
+
+header{
+	background: #FAFAFA;
+}
+
+.logo{
+	width: 150px;
+}
+
+.vacio{
+	height: 100px;
+}
+
+.redes{
+	margin: 5px;
+}
+
+nav ul{
+	background:#259dab;
+}
+
+nav a{
+	color: white;
+}
+
+nav a:hover{
+	color: black;
+}
+.blanco{
+	background: white;
+	margin: 1px;
+	padding: 5px;
+}
+
+.artista{
+	width: 300px;
+	padding: 10px 0 10px 0
+}
+
+.buscar{
+	padding: 15px;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover
+{
+	background: #259dab !important;
+	border-color: #259dab !important;
+}
+
+@media (max-width: 768px) {
+	.artista{
+	width: 100%;
+}
+
+.menu{
+	display: none;
+}
+
+}

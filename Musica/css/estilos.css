@@ -1,0 +1,80 @@
+body {
+    background: #d8dce3;
+}
+
+section {
+    background: white;
+    padding: 10px;
+}
+
+.blanco {
+    background: white;
+    margin: 1px;
+    padding: 5px;
+}
+
+header {
+    background: white;
+}
+
+.redes {
+    padding: 10px;
+}
+
+.logo-img {
+    width: 120px;
+    padding: 10px;
+}
+
+.right-site {
+    background: white;
+}
+
+.espacio {
+    height: 80px;
+}
+
+.artistimg {
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    background: #259dab;
+}
+
+nav a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+
+.navbar {
+    border: 0px !important;
+}
+
+.menu {
+    margin-top: 10px;
+    background: red;
+}
+
+
+@media (max-width: 768px) {
+    .espacio {
+        display: none;
+        */
+    }
+
+    .artistimg {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .right-site {
+        display: none;
+
+    }
